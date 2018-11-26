@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "client": "cd client && npm start",
-    "start": "concurrently - kill-others \"npm run client \" \"nodemon index\""
+    "start": "concurrently - kill-others \" nodemon index \" \"npm run client\""
   },
   "keywords": [],
   "author": "",
